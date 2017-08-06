@@ -1,2 +1,2 @@
 # starfield
-its uh... a field... of stars.
+it's uh... a field... of stars.
