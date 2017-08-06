@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>starfield</title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body onload="document.getElementById('customAmountOfStars').value = 100;">
+    <div id="tellMeWhatToDo">
+      <h1>Starfield</h1>
+      <h2>Amount of stars</h2>
+      <p><span>Less</span> <input type="range" min="10" max="250" step="1" id="customAmountOfStars" name="customAmountOfStars"><span>More</span></p>
+      <p><input type="checkbox" id="shouldIMakeItRandomInstead" name="shouldIMakeItRandomInstead" onclick="toggleD('customAmountOfStars');"><label for="shouldIMakeItRandomInstead"> Random?</label></p>
+      <p><button type="button" onclick="loadTheThing();">I'm ready!</button></p>
+      <p>A <a href="https://dnomaid.co.uk">dnomaid</a> thing.</p>
+    </div>
+    <script src="stars.js"></script>
+   </body>
+</html>
